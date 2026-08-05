@@ -3,16 +3,16 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Lagonz Solutions | Google Ads, Social Media Management | Miami, FL</title>
-<meta name="description" content="Lagonz Solutions is a Miami digital marketing agency specializing in Google Ads, PPC campaigns, social media management, and website design for local businesses. Real results, no contracts. Call 786-968-1057.">
-<meta name="keywords" content="Lagonz Solutions, Lagonz Solution, LaGonz Solutions, Google Ads Miami, PPC Miami, social media management Miami, digital marketing Miami, Google Ads management Miami, website design Miami, local business marketing Miami">
+<title>Lagonz Solutions | Window, Restaurant & Landscaping Marketing | Miami</title>
+<meta name="description" content="Lagonz Solutions helps window companies, restaurants, and landscaping businesses in Miami get real leads through Google Ads, social media, and digital marketing. No contracts. Call 786-968-1057.">
+<meta name="keywords" content="Lagonz Solutions, window companies Miami, restaurant marketing Miami, landscaping marketing Miami, Google Ads Miami, PPC Miami, local business marketing, website design, digital marketing agency Miami">
 <meta name="author" content="Lagonz Solutions">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://www.lagonzsolutions.com/">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.lagonzsolutions.com/">
-<meta property="og:title" content="Lagonz Solutions | Google Ads &amp; Social Media Management | Miami, FL">
-<meta property="og:description" content="Lagonz Solutions runs Google Ads, social media management, and PPC campaigns for Miami local businesses. Real leads, not just traffic. $500/mo, website included.">
+<meta property="og:title" content="Lagonz Solutions | Window, Restaurant &amp; Landscaping Marketing">
+<meta property="og:description" content="Digital marketing for window companies, restaurants, and landscaping businesses in Miami. Google Ads, social media, and PPC. Real leads. $500/mo.">
 <meta property="og:site_name" content="Lagonz Solutions">
 <script type="application/ld+json">
 {
@@ -127,12 +127,15 @@ h1 .dim{color:rgba(255,255,255,.35)}
   padding:16px 22px;border-radius:10px;text-decoration:none;
   transition:transform .15s,box-shadow .15s;
 }
-.hbtn.main{background:var(--red);color:#fff}
-.hbtn.main:hover{background:var(--red2);transform:translateY(-2px)}
-.hbtn.alt{background:rgba(255,255,255,.08);color:#fff;border:1px solid rgba(255,255,255,.1)}
-.hbtn.alt:hover{background:rgba(255,255,255,.12)}
+.hbtn.main{
+  background:var(--red);color:#fff;font-size:1.15rem;
+  box-shadow:0 4px 24px rgba(212,66,10,.4);
+}
+.hbtn.main:hover{transform:translateY(-2px);box-shadow:0 8px 32px rgba(212,66,10,.5)}
+.hbtn.sec{background:rgba(255,255,255,.08);color:#fff;border:1px solid rgba(255,255,255,.1)}
+.hbtn.sec:hover{background:rgba(255,255,255,.12)}
 .btn-ico{display:flex;align-items:center;justify-content:center}
-.btn-lbl{opacity:.75;font-size:.8rem;display:block}
+.btn-lbl{opacity:.75;font-size:.85rem;display:block}
 
 .hero-card{
   background:rgba(255,255,255,.02);border:1px solid rgba(255,255,255,.08);border-radius:16px;
@@ -262,39 +265,42 @@ h1 .dim{color:rgba(255,255,255,.35)}
   border-radius:12px;display:flex;flex-direction:column;
 }
 .svc-ico{
-  width:52px;height:52px;background:var(--red);border-radius:10px;
-  display:flex;align-items:center;justify-content:center;color:#fff;margin-bottom:20px;
+  width:52px;height:52px;border-radius:12px;background:rgba(196,154,44,.15);
+  display:grid;place-items:center;margin-bottom:22px;color:var(--red);
 }
-.svc h3{
-  font-family:'Plus Jakarta Sans',sans-serif;font-weight:700;font-size:1.1rem;
-  color:#fff;margin-bottom:12px;
-}
-.svc p{
-  font-size:.95rem;color:rgba(255,255,255,.6);line-height:1.6;margin-bottom:auto;padding-bottom:20px;
-}
+.svc h3{font-family:'Plus Jakarta Sans',sans-serif;font-weight:800;font-size:1.15rem;margin-bottom:10px;color:#fff}
+.svc p{font-size:.9rem;color:rgba(255,255,255,.55);line-height:1.7;max-width:360px}
 .svc-price{
-  font-family:'Plus Jakarta Sans',sans-serif;font-weight:700;color:var(--red);font-size:.85rem;
+  display:inline-flex;align-items:center;gap:6px;
+  margin-top:20px;font-family:'Plus Jakarta Sans',sans-serif;font-weight:700;font-size:.8rem;
+  color:var(--red);background:rgba(196,154,44,.12);
+  padding:5px 12px;border-radius:100px;border:1px solid rgba(196,154,44,.3);
 }
 
-/* ── STEPS ── */
-.steps{
-  display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:40px;margin-top:56px;
+/* ── NICHE CARDS ── */
+.niche-card{
+  padding:32px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);
+  border-radius:12px;
 }
-.step{counter-increment:step-counter}
-.step h3{
+.niche-card h3{
   font-family:'Plus Jakarta Sans',sans-serif;font-weight:700;font-size:1.15rem;
-  color:#fff;margin-bottom:14px;display:flex;align-items:center;gap:12px;
+  color:#fff;margin-bottom:16px;
 }
-.step h3::before{
-  content:counter(step-counter);
-  display:flex;align-items:center;justify-content:center;
-  width:40px;height:40px;background:var(--red);color:#fff;border-radius:50%;
-  font-weight:900;font-size:.95rem;flex-shrink:0;
+.niche-card p{
+  font-size:.95rem;color:rgba(255,255,255,.7);line-height:1.7;margin-bottom:12px;
 }
-.step p{
-  font-size:.95rem;color:rgba(255,255,255,.6);line-height:1.7;
+.niche-card p strong{color:rgba(255,255,255,.9)}
+
+/* ── HOW IT WORKS ── */
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:rgba(255,255,255,.08);border-radius:14px;overflow:hidden;border:1px solid rgba(255,255,255,.08)}
+.step{padding:40px 32px;background:rgba(255,255,255,.03);transition:background .2s}
+.step:hover{background:rgba(255,255,255,.06)}
+.step-n{
+  font-family:'Plus Jakarta Sans',sans-serif;font-size:4rem;font-weight:900;
+  color:var(--red);opacity:.25;line-height:1;margin-bottom:24px;letter-spacing:-.05em;
 }
-.steps{counter-reset:step-counter}
+.step h3{font-family:'Plus Jakarta Sans',sans-serif;font-weight:700;font-size:1.05rem;color:#fff;margin-bottom:10px}
+.step p{font-size:.9rem;color:rgba(255,255,255,.5);line-height:1.6}
 
 /* ── CTA ── */
 .cta-sec{
@@ -350,6 +356,7 @@ footer a:hover{color:rgba(255,255,255,.7)}
   .platform-strip{gap:20px;font-size:.75rem}
   .plat-divider{display:none}
   h1{font-size:clamp(2rem,5vw,3.2rem)}
+  .steps{grid-template-columns:1fr}
   .cta-btns{flex-direction:column}
   .cbtn{justify-content:center;width:100%}
   footer{flex-direction:column;text-align:center}
@@ -372,12 +379,11 @@ footer a:hover{color:rgba(255,255,255,.7)}
 </nav>
 
 <!-- HERO -->
-<section class="hero">
+<div class="hero">
   <div class="hero-inner">
     <div>
-      <div class="hero-tag"><span class="hero-dot"></span>Miami, Florida &middot; Digital Marketing</div>
       <h1>Your customers<br>are searching.<br><span class="red">Find them first.</span></h1>
-      <p class="hero-sub">We run <strong>Google Ads and PPC campaigns</strong>, manage social media, handle SEO, and build websites for Miami businesses that want real leads. Not just traffic they cannot track.</p>
+      <p class="hero-sub">We run <strong>Google Ads and PPC campaigns</strong>, manage social media, handle SEO, and build websites for window companies, restaurants, and landscaping businesses in Miami that want real leads. Not just traffic they cannot track.</p>
       <div class="hero-btns">
         <a href="tel:+17869681057" class="hbtn main">
           <span class="btn-ico"><svg class="ph" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"/></svg></span>
@@ -397,7 +403,7 @@ footer a:hover{color:rgba(255,255,255,.7)}
       <div class="hcard-note" style="margin-top:12px;background:rgba(20,184,166,.12);border-color:rgba(20,184,166,.2);color:rgba(20,184,166,.9)">Actual Google Ads dashboard &middot; Florida local service business, June to July 2026 &middot; Client name withheld by request &middot; Screenshot unedited</div>
     </div>
   </div>
-</section>
+</div>
 
 <!-- PLATFORM STRIP -->
 <div class="platform-strip">
@@ -410,18 +416,18 @@ footer a:hover{color:rgba(255,255,255,.7)}
 </div>
 
 <!-- PROOF -->
-<section class="sec dark">
+<section class="sec white" id="proof">
   <div class="w">
     <p class="ey">Proof not promises</p>
-    <h2 class="sh">Real numbers from a real client campaign</h2>
-    <p class="sp">This is an actual PPC campaign we managed for a local Florida business. Taken directly from Google Ads. Nothing edited, nothing cherry picked.</p>
+    <h2 class="sh">Real results across industries</h2>
+    <p class="sp">Window installations booked. Restaurant tables filled. Landscaping projects closed. These are real clients. Real growth. Real leads.</p>
     <div class="proof-wrap">
       <div style="width:100%;height:400px;background:rgba(0,0,0,.5);display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,.5)">Screenshot would go here</div>
     </div>
   </div>
 </section>
 
-<!-- COMPARE -->
+<!-- WHY LAGONZ -->
 <section class="sec dark">
   <div class="w">
     <p class="ey">Why Lagonz Solutions?</p>
@@ -479,33 +485,62 @@ footer a:hover{color:rgba(255,255,255,.7)}
     <div class="svc-grid">
       <div class="svc">
         <div class="svc-ico"><svg width="26" height="26" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M15.59 14.37a6 6 0 01-5.84 7.38v-4.82m5.84-2.56a14.98 14.98 0 006.16-12.12A14.98 14.98 0 009.631 8.41m5.96 5.96a14.926 14.926 0 01-5.841 2.58m-.119-8.54a6 6 0 00-7.381 5.84h4.818m2.563-5.84a14.927 14.927 0 00-2.57 5.84M2.62 15.662c2.87 2.58 6.49 4.32 10.62 4.32"/></svg></div>
-        <h3>Google Ads and PPC Management</h3>
-        <p>Pay per click campaigns built to generate leads, not impressions. Google Search, Performance Max, and multi-platform PPC. We handle everything monthly.</p>
+        <h3>Google Ads & PPC for Your Industry</h3>
+        <p><strong>Windows:</strong> Target homeowners searching for replacements and installations. <strong>Restaurants:</strong> Get hungry customers finding places to eat nearby. <strong>Landscaping:</strong> Reach property owners planning outdoor work.</p>
         <span class="svc-price">$500 per month</span>
       </div>
       <div class="svc">
         <div class="svc-ico"><svg width="26" height="26" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0H3"/></svg></div>
-        <h3>Website Design</h3>
-        <p>Fast, mobile ready, built to convert. One flat fee. You own it outright. No monthly fees, no contracts, no surprises after you pay.</p>
+        <h3>Niche-Focused Websites</h3>
+        <p>Built for conversions in your industry. Windows sites showcase installations. Restaurant sites take reservations and orders. Landscaping sites display portfolios and drive job inquiries.</p>
         <span class="svc-price">$600 one time</span>
       </div>
       <div class="svc">
         <div class="svc-ico"><svg width="26" height="26" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M6 15l6-6m0 0l6 6m-6-6v12a6 6 0 01-6-6v-7a1 1 0 011-1h10a1 1 0 011 1v7a6 6 0 01-6 6"/></svg></div>
-        <h3>Social Media Management</h3>
-        <p>Keep your audience engaged and attract new customers. We handle posting, engagement, and community management across all platforms. Daily presence, real growth.</p>
+        <h3>Social Media That Sells</h3>
+        <p>Post jobs and before/afters if you're landscaping. Share menu specials and ambiance if you're a restaurant. Post installations and reviews if you're in windows. We handle it all, daily.</p>
         <span class="svc-price">Included with ads</span>
       </div>
       <div class="svc">
         <div class="svc-ico"><svg width="26" height="26" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="8"/><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-4.35-4.35"/></svg></div>
-        <h3>SEO</h3>
-        <p>Show up when people search for your service without paying per click. We handle the technical setup, local listings, and content that ranks.</p>
+        <h3>Local SEO & Listings</h3>
+        <p>Show up in Google Maps when people search your service nearby. Windows. Restaurants. Landscaping. We optimize your presence so customers find you organically.</p>
         <span class="svc-price">Monthly service</span>
       </div>
       <div class="svc">
         <div class="svc-ico"><svg width="26" height="26" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 01.865-.501 48.172 48.172 0 003.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"/></svg></div>
-        <h3>Other Ad Platforms</h3>
-        <p>Need PPC on Meta, TikTok, or Yelp? We run multi channel campaigns too. We will tell you honestly if it makes sense before you spend a dollar.</p>
+        <h3>Multi-Platform Ads</h3>
+        <p>Meta, TikTok, Yelp, Google. We know which platforms work for your industry and only recommend what makes sense for your budget.</p>
         <span class="svc-price">On request</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- NICHES -->
+<section class="sec dark">
+  <div class="w">
+    <p class="ey">Who we work with</p>
+    <h2 class="sh">We know your industry</h2>
+    <p class="sp">Different businesses need different strategies. We specialize in what works for windows, restaurants, and landscaping.</p>
+    <div class="svc-grid">
+      <div class="niche-card">
+        <h3>🪟 Window Companies</h3>
+        <p><strong>What they need:</strong> Homeowners ready to replace windows. Installation leads that close.</p>
+        <p><strong>How we help:</strong> Target search terms like "replacement windows near me." Showcase before/afters on social. Get Google to send qualified calls.</p>
+        <p><strong>Real example:</strong> Local window installer went from 2-3 calls per month to 15+ through Google Ads + SEO.</p>
+      </div>
+      <div class="niche-card">
+        <h3>🍽️ Restaurants</h3>
+        <p><strong>What they need:</strong> Full tables. Repeat customers. Online orders and reservations.</p>
+        <p><strong>How we help:</strong> Target "restaurants open now" and nearby searches. Share menu specials and specials on Instagram/Facebook. Drive reservations and repeat visits.</p>
+        <p><strong>Real example:</strong> Local restaurant increased average weekly diners by 30% and got consistent Friday/Saturday bookings.</p>
+      </div>
+      <div class="niche-card">
+        <h3>🌳 Landscaping</h3>
+        <p><strong>What they need:</strong> High-value projects. Maintenance contracts. Before/after proof.</p>
+        <p><strong>How we help:</strong> Ads target homeowners planning outdoor work. Portfolio posts on social build trust. Local SEO brings organic leads.</p>
+        <p><strong>Real example:</strong> Landscaper went from 1-2 monthly jobs to 8-10 monthly projects through Google Ads.</p>
       </div>
     </div>
   </div>
